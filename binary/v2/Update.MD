@@ -60,7 +60,11 @@ source $HOME/.bash_profile
 
 ### Stop existing node instance
 
+If you use service:
 `sudo systemctl stop iond`
+
+If you dont use service:
+`iond stop`
 
 ### Backup current service
 
